@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 《上帝不仅掷骰子》演讲稿
-date: 2017-01-17
-categories: 读书
-tags: [量子理论]
+category: 读书
+description: [量子理论]
 ---
 
 今天我要分享的内容是关于量子理论的发展史。《上帝不仅掷骰子》这个题目是取至霍金的《时间简史》一书：
