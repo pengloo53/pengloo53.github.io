@@ -1,3 +1,5 @@
+---
+layout: post
 title: 我又重装了个双系统
 date: 2016-12-20
 categories: 

@@ -1,3 +1,5 @@
+---
+layout: post
 title: 当我拿到一台Ubuntu服务器（一）
 date: 2017-06-05
 categories: 

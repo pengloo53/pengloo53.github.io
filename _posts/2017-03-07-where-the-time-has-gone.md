@@ -1,3 +1,5 @@
+---
+layout: post
 title: 时间都去哪了？
 date: 2017-03-07
 categories: 随笔

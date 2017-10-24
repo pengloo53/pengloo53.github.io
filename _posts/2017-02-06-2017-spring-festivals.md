@@ -1,3 +1,5 @@
+---
+layout: post
 title: 2017春节日志
 date: 2017-02-06
 categories: 

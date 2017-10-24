@@ -1,3 +1,5 @@
+---
+layout: post
 title: 站在风口上，猪也未必能飞起来
 date: 2017-03-28
 categories: 

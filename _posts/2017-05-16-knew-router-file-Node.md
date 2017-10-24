@@ -1,3 +1,5 @@
+---
+layout: post
 title: 了解express的路由方法 - Node实战
 date: 2017-06-23
 categories: 

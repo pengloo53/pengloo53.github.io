@@ -1,3 +1,5 @@
+---
+layout: post
 title: 《上帝不仅掷骰子》演讲稿
 date: 2017-01-17
 categories: 读书

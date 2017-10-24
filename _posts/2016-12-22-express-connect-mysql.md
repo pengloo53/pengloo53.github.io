@@ -1,3 +1,5 @@
+---
+layout: post
 title: Node连接mysql数据库方法
 date: 2016-12-29
 categories: 
