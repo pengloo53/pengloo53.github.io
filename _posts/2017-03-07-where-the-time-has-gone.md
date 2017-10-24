@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 时间都去哪了？
-date: 2017-03-07
-categories: 随笔
-tags: [时间]
+category: blog
+description: 时间都去哪里了
 ---
 
 ![](/assets/img/me/2017-03-07-11-08-59.jpg)

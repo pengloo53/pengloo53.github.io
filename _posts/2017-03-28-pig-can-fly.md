@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 站在风口上，猪也未必能飞起来
-date: 2017-03-28
-categories: 
-- 随笔
-- 胡思乱想
-tags: [创业]
+category: blog
+description: [创业]
 ---
 
 ![](/assets/img/me/2017-03-28-15-17-04.jpg)
