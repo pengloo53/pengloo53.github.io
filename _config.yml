@@ -1,38 +1,32 @@
-# ----------- CONFIGURABLE START -----------
-title:            "FullStack|独立开发者|jekyll blog|GitHub blog"
-description:      "Full Stack独立开发者|欢迎来到这里 侃侃理想、谈谈人生、敲敲代码。"
-url:              "https://pengloo53.github.io/" # 域名
-signoff:          "Lu Peng" # Your name
-facebook_appid:   #facebook_id
-google_analytics: 
-share:            true 
-# 分页
-paginate: 15
-paginate_path: "liberxuepage:num"
-gems: [jekyll-paginate]
-links:
-  - name:         首页
-    url:          /
-    external:     false
-  - name:         书籍
-    url:          /book
-    external:     false
-  - name:         旅游
-    url:          /road
-    external:     false
-  - name:         归档
-    url:          /archives
-    external:     false
-  - name:         标签
-    url:          /tags
-    external:     false
-  - name:         关于
-    url:          /about
-    external:     false
-# ------------ CONFIGURABLE END ------------
+# Permalinks
+permalink:           pretty
 
-#permalink:        /:categories/:title.html
-permalink: /:year/:month/:day/:title.html
-defaults:
-  - values:
-      layout: "default"
+# Setup
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
