@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《上帝不仅掷骰子》演讲稿
-category: 读书
+category: blog
 description: [量子理论]
 ---
 
