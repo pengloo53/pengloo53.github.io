@@ -1,4 +1,5 @@
 title: Diagram Designer - 小巧免费的流程图绘制软件
+layout: blog
 date: 2016-12-19
 categories: 
 - 工具
