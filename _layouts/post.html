@@ -2,24 +2,16 @@
 layout: default
 ---
 
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
-</article>
+<body class="body-post">
+  <div class="post-wrapper">
+    <h1 class="post-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+    <p class="post-date">{{ page.date|date:"%Y-%m-%d" }}</p>
+    {{ content }}
+    {% include disqus.html %}
+  </div>
 
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
+  {% include about.html %}
+
+  <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+  <script src="/js/post.js" type="text/javascript"></script>
+</body>
