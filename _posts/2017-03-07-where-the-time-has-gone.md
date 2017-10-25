@@ -2,7 +2,7 @@
 layout: post
 title: 时间都去哪了？
 category: blog
-description: 每天下班后，什么都不想干。
+description: 每天下班后，什么都不想干。是你把时间丢了，还是时间把你遗忘了。
 ---
 
 ![](/assets/img/me/2017-03-07-11-08-59.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: 站在风口上，猪也未必能飞起来
 category: blog
-description: [创业]
+description: 这种说法实在是过于谦卑了，风口上能吹起猪吗？你觉得呢？
 ---
 
 ![](http://7sbsl6.com1.z0.glb.clouddn.com/blog2017-03-28-15-17-04.jpg)
