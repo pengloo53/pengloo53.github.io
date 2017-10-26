@@ -1,14 +1,15 @@
----
-layout: post
 title: 了解express的路由方法 - Node实战
-category: blog
-description: 想添加一个新的路由，能不能不要去改app.js文件呢，该路由就在路由router文件夹里动就可以了，这样也会便于维护一些。
+date: 2017-06-23
+categories: 
+- 技术
+- Node
+tags: [node,express,路由]
 ---
 
 一直使用Express脚手架（express-generator模块）直接生成项目目录，使用命令`express -e ./test`，生成目录后会创建一些项目目录，如下：
 
-![](http://7sbsl6.com1.z0.glb.clouddn.com/blog2017-06-23-10-21-26.jpg)
-
+![](/assets/img/me/2017-06-23-10-21-26.jpg)
+<!-- more -->
 路由相关逻辑都是写在了`routes/`目录里，如果想创建一些新的路径，需要新建路由文件，然后在`app.js`里定义这个路由文件，并添加中间件。`app.js`代码如下：
 
 ```js

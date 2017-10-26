@@ -1,8 +1,9 @@
----
-layout: post
 title: 页面渲染传参的方式 - Node实战
-category: blog
-description: 页面的传参有很多种方式，关于Node开发，你又知道几种？
+date: 2017-06-06
+categories: 
+- 技术
+- Node
+tags: [渲染,node,flash]
 ---
 
 动态页面的开发，基本会涉及一个比较关键的问题，那就是传参。后台把不同的参数传递给前台，前台页面根据不同的参数显示不同的页面效果，这叫做渲染。
