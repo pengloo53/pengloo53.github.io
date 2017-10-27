@@ -1,3 +1,5 @@
+---
+layout: post
 title: 2016年阅读书单总结
 date: 2017-01-01
 categories: 

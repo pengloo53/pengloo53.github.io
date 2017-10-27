@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 我正在思考问题
+title: 当我在码字的时候，他们都嘲笑我；当我写出一篇好文时
 date: 2017-10-26
-categories: blog
+categories: 
+- 随笔
 tags: 
 ---
 

@@ -1,3 +1,5 @@
+---
+layout: post
 title: 媳妇练车记（一）- 克服恐惧
 date: 2017-08-14
 categories: 

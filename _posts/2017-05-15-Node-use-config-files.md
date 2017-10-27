@@ -1,3 +1,5 @@
+---
+layout: post
 title: 学会使用配置文件 - Node实战
 date: 2017-05-16
 categories: 

@@ -1,3 +1,5 @@
+---
+layout: post
 title: 页面渲染传参的方式 - Node实战
 date: 2017-06-06
 categories: 
