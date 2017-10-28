@@ -4,6 +4,7 @@ title: 时间都去哪了？
 date: 2017-03-07
 categories: 随笔
 tags: [时间]
+description: 不管你成或不成，千万不要再拿时间当做借口了。
 ---
 
 ![](/assets/img/me/2017-03-07-11-08-59.jpg)
