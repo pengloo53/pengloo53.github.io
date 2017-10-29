@@ -200,7 +200,7 @@ a.external:hover {
 .index-wrapper .index-content {
   margin-left: 30%;
   padding-top: 80px;
-  padding-right: 15%;
+  padding-right: 10%;
 }
 @media screen and (max-width: 767px) {
   .index-wrapper .index-content {
@@ -218,7 +218,7 @@ a.external:hover {
   }
 }
 .index-wrapper .artical-list li {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .index-wrapper .title {
   display: block;
@@ -226,7 +226,7 @@ a.external:hover {
   margin-bottom: 15px;
   word-break: break-all;
   font-weight: bold;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   padding-bottom: 10px;
   border-bottom: 2px solid #eee;
   color: #444;
@@ -332,13 +332,15 @@ a.external:hover {
   line-height: 1.8em;
 }
 .post-wrapper code {
-  background: #eee;
+  background: #fefefe;
   border: 1px solid #ccc;
   padding: 0 5px;
   font-family: "Courier";
   line-height: 14px;
-  font-size: 14px;
+  font-size: 0.9em;
   word-wrap: break-word;
+  color: #d14;
+  border-radius: 3px;
 }
 .post-wrapper pre {
   background: #f7f3f7;
@@ -394,9 +396,10 @@ a.external:hover {
   }
 }
 .post-wrapper blockquote {
-  margin-left: 25px;
+  padding-left: 25px;
   font-size: 14px;
   font-style: italic;
+  border-left: 5px solid #ccc;
 }
 .post-wrapper img {
   max-width: 670px;

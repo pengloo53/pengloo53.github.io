@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 当我在码字的时候，他们都嘲笑我；当我写出一篇好文时
+title: 当我在码字的时候，他们都嘲笑我，当我写出一篇好文时
 date: 2017-10-26
 categories: 
 - 随笔
 tags: 
+description: 在这个满世界都是自媒体的时代，写点什么总是对的。
 ---
 
 ![母校图书馆](http://7sbsl6.com1.z0.glb.clouddn.com/blogIMG_20171002_084424R-01.jpeg)
