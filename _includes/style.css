@@ -200,7 +200,7 @@ a.external:hover {
 .index-wrapper .index-content {
   margin-left: 30%;
   padding-top: 80px;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 @media screen and (max-width: 767px) {
   .index-wrapper .index-content {
@@ -246,6 +246,21 @@ a.external:hover {
   font-size: 14px;
   line-height: 1.6;
 }
+
+/* add at 2017-10-30 by lupeng */
+.index-wrapper .index-date{
+  color: #999;
+  font-size: 0.8em;
+  line-height: 2em;
+  float: right;
+}
+@media screen and (max-width: 767px){
+  .index-wrapper .index-date{
+    display: none;
+  }
+}
+/* end */
+
 .body-post {
   background: #f5f5f5;
 }
