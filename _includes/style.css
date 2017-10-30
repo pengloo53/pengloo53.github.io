@@ -423,7 +423,7 @@ a.external:hover {
 @media screen and (max-width: 767px) {
   .about-wrapper {
     width: 100%;
-    padding: 0 7.5% 30px;
+    padding: 30px 7.5% 30px;
   }
 }
 .about-wrapper .aboutme {
