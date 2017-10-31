@@ -17,7 +17,7 @@ description: Node Web开发中，换台机器开发就要检查数据库表结�
 
 从理论上讲应该在后台业务逻辑以及数据库取数逻辑中间再架一层，将数据库操作全部封装起来，调用对象方法而取消拼接SQL来实现数据的获取，没错，这就是[ORM（Object Relational Mapping）](https://baike.baidu.com/item/ORM/3583252?fr=aladdin)框架。
 
-于是乎我找到了[Sequelize | The node.js ORM for PostgreSQL, MySQL, SQLite and MSSQL](http://docs.sequelizejs.com/)，看看文档，用起来感觉还是不错，最起码解决了我的上述的困扰。
+于是乎我找到了[Sequelize](http://docs.sequelizejs.com/)，看看文档，用起来感觉还是不错，最起码解决了我的上述的困扰。
 
 引入模块等等准备工作我就不多废话了，直接上手实战。
 
@@ -153,4 +153,4 @@ var priority = sequelize.define('priority',{
 好了，本次就到这里，深入学习后再做分享。
 
 - - -
-更多内容请访问：http://lupeng.me
+更多内容请访问：[http://lupeng.me](http://lupeng.me)
