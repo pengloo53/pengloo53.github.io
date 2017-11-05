@@ -17,9 +17,7 @@ description: Node Web开发中，换台机器开发就要检查数据库表结�
 
 后来换台机器继续写代码的时候，就会发现，这种方式真的是太不方便了，当我在A电脑上修改了代码，并且修改了数据表结构之后，去B电脑上通过GIt同步代码，但是数据表结构还得copy一份A电脑上修改过的数据表结构，想想也是醉了。这种实现方式不仅比较Low，并且维护起来也非常的不方便，一方面要写交互逻辑代码，一方面要拼接sql语句来获取数据。
 
-从理论上讲应该在后台业务逻辑以及数据库取数逻辑中间再架一层，将数据库操作全部封装起来，调用对象方法而取消拼接SQL来实现数据的获取，没错，这就是[ORM（Object Relational Mapping）](https://baike.baidu.com/item/ORM/3583252?fr=aladdin)框架。
-
-于是乎我找到了[Sequelize](http://docs.sequelizejs.com/)，看看文档，用起来感觉还是不错，最起码解决了我的上述的困扰。
+从理论上讲应该在后台业务逻辑以及数据库取数逻辑中间再架一层，将数据库操作全部封装起来，调用对象方法而取消拼接SQL来实现数据的获取，没错，这就是[ORM（Object Relational Mapping）](https://baike.baidu.com/item/ORM/3583252?fr=aladdin)框架。J2EE开发三剑客`SSH`中的`Hibernate`就是ORM的一种实现方式。Node Web开发中，我找到了[Sequelize](http://docs.sequelizejs.com/)，看看文档，用起来感觉还是不错，最起码解决了我的上述的困扰。
 
 引入模块等等准备工作我就不多废话了，直接上手实战。
 
