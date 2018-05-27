@@ -4,20 +4,15 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>鲁鹏 Resume : Home</title>
-        <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
-
         <link rel="stylesheet" type="text/css" href="">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="icon" href="assets/images/logo.png">       
+        <link rel="icon" href="assets/images/logo.png">
     </head>
-
     <body>
         <div id="index">                                           <!-- Index starts here -->
             <div class="container main">
@@ -50,18 +45,19 @@
                             <a href="https://www.linkedin.com/in/pengloo53" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                         <div class="qrcode">
-                            <img src="assets/images/weixin.jpg" alt="" width="100%" style="display: none">
+                            <img src="assets/images/weixin.jpg" title="个人微信公众账号" style="display: none">
                         </div>
                     </div>
                 </div>
             </div>
         </div><!-- index ends here -->
         <script src="assets/js/jquery-3.1.0.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
         <script>
             $(function(){
-                $('#weixin').click(function(){
+                $('#weixin').hover(function(){
                     $('.qrcode img').show('slideUp');
+                },function(){
+                    $('.qrcode img').hide('slideDown');
                 });
             });
         </script>
