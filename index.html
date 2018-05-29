@@ -4,17 +4,21 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>鲁鹏 Resume : Home</title>
+        <title>鲁鹏's Website : Home</title>
         <link rel="stylesheet" type="text/css" href="">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="icon" href="assets/images/logo.png">
+        <link rel="icon" href="assets/images/favicon.ico">
     </head>
     <body>
-        <div id="index">                                           <!-- Index starts here -->
+        <div class="pull-right">
+            <a href="javascript:;" class="local-zh badge">zh</a>
+            <a href="javascript:;" class="local-en badge" style="display: none">en</a>
+        </div>
+        <div id="index"><!-- Index starts here -->
             <div class="container main">
                 <div class="row home">
                     <div id = "index_left" class="col-md-6 left">
@@ -23,12 +27,16 @@
                     <div id = "index_right" class="col-md-6 text-center right">
                         <div class="logo">
                             <img src="assets/images/logo.png">
-                            <h4>I am LP</h4>
+                            <h4 class="en">I am LP</h4>
+                            <h4 class="zh">我叫鲁鹏</h4>
                         </div>
-                        <p class="home-description" title="伪程序员，我喜欢一切美好简约的设计，Apple产品热爱者，享受敲击键盘的感觉，或写作，或编码...">
+                        <p class="home-description zh">
+                            我是一个产品人，一个伪程序员，我喜欢一切美好简约的设计，Apple产品热爱者，享受敲击键盘的感觉，或写作，或编码...
+                        </p>
+                        <p class="home-description en">
                             I am a producter, a pseudo-programmer, I love all the beautiful design, simple style lovers, Apple products enthusiasts, enjoy the feeling of percussion keyboard, or text, or code ...
                         </p>
-                        <div class="row">
+                        <div class="row en">
                             <div class="col btn-group">
                                 <a href="about.html" class="btn btn-rabbit" target="_blank">About</a>
                                 <a href="https://pengloo53.bitcron.com" class="btn btn-rabbit" target="_blank">Blog</a> 
@@ -38,6 +46,16 @@
                                 <div id="contact" class="btn btn-rabbit">Contact</div>
                             </div>
                         </div> 
+                        <div class="row zh">
+                            <div class="col btn-group">
+                                <a href="about.html" class="btn btn-rabbit" target="_blank">关于我</a>
+                                <a href="https://pengloo53.bitcron.com" class="btn btn-rabbit" target="_blank">博客</a> 
+                            </div>
+                            <div class="col btn-group">
+                                <div id="project" class="btn btn-rabbit">项目</div>
+                                <div id="contact" class="btn btn-rabbit">联系</div>
+                            </div>
+                        </div> 
                         <div class="social">
                             <a href="javascript:;" id="weixin"><i class="fa fa-qrcode" aria-hidden="true"></i></a>
                             <!-- <a href="https://weibo.com/pengloo53" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a> -->
@@ -45,7 +63,7 @@
                             <a href="https://www.linkedin.com/in/pengloo53" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                         <div class="qrcode">
-                            <img src="assets/images/weixin.jpg" title="个人微信公众账号" style="display: none">
+                            <img src="assets/images/weixin.jpg" title="个人微信公众账号" style="display: none;width: 60%">
                         </div>
                     </div>
                 </div>
@@ -58,6 +76,18 @@
                     $('.qrcode img').show('slideUp');
                 },function(){
                     $('.qrcode img').hide('slideDown');
+                });
+                $('a.local-zh').click(function(){
+                    $('a.local-zh').hide();
+                    $('a.local-en').show();
+                    $('.en').hide();
+                    $('.zh').show();
+                });
+                $('a.local-en').click(function(){
+                    $('a.local-en').hide();
+                    $('a.local-zh').show();
+                    $('.zh').hide();
+                    $('.en').show();
                 });
             });
         </script>

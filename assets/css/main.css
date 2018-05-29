@@ -7,14 +7,23 @@ body{
 	background: #fff;
 }
 
-.home-description{
-	font-style: italic;
+.zh{
+	line-height: 2em;
+	font-weight: normal;
+	display: none
+}
+
+.en{
+	line-height: 1.5em;
 	font-weight: 600;
+}
+
+.home-description{
+	font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-style: italic;
 	font-family: "Crimson";
-	font-size: 19px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    line-height: 29px;
 }
 
 .social a i{
@@ -238,87 +247,8 @@ p{
 	bottom: -7px;
 }
 
-#watermark .marker{
-	position: absolute;
-	font-size: 60px;
-	opacity: 0.1;
-	font-family: "Josefin Sans";
-	text-transform: uppercase;
-	left: 0;
-	top: -5px;
-}
-
-#watermark{
-	position: relative;
-}
-
 .item{
 	
 	background-color: #313131;
 	color: #f9f9f9;
-}
-
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-    /*margin-left: 0px;*/
-}
-
-.owl-theme .owl-controls {
-    margin-top: 10px;
-    margin-right: 10px;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top: calc(44% - 40px);
-		}
-
-.owl-next{
-	right: 0;
-	padding-right: 1px;
-
-}
-
-.owl-prev{
-	left: 0;
-	padding-left: 1px;
-}
-
-
-
-.owl-theme .owl-controls .owl-nav [class*=owl-]{
-	position: absolute;
-	border-radius: 0px;
-	font-size: 21px;
-	padding: 15px 20px;
-	margin: 0px;
-	background-color: #fff; 
-
-}
-
-.owl-theme .owl-controls .owl-nav [class*=owl-] i{
-	color: #333;
-	
-}
-
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;
-}
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
-	color: #fff;
-}
-@media (max-width: 1024px) and (orientation: landscape){
-	.main{
-		height: auto;
-	}
-}
-.custom_btn{
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
-.show{
-	display: block;
 }
