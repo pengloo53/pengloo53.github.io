@@ -1,100 +1,96 @@
-<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>鲁鹏·个人学习</title>
-        <meta property="og:site_name" content="Uncle byte">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="鲁鹏·个人学习">
-        <meta property="og:description" content="Insist on learning and insist on sharing.">
-        <meta property="og:url" content="http://lupeng.me/">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="icon" href="assets/images/favicon.ico">
-    </head>
-    <body>
-        
-        <div id="index"><!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left">
-                        <img class="img-responsive img-rabbit" src="assets/images/index.jpg">
-                    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <img src="assets/images/logo.jpg">
-                            <h4 class="en">Peng Lu</h4>
-                            <h4 class="zh">鲁 鹏</h4>
-                        </div>
-                        <div class="">
-                            <a href="javascript:;" class="local-zh">zh</a>
-                            <a href="javascript:;" class="local-en" style="display: none">en</a>
-                        </div>
-                        <p class="home-description zh">
-                            不想做产品的设计师不是好的程序员，我喜欢一切美好简约的设计，数码产品热爱者，享受敲击键盘的感觉，或写作，或编码...
-                        </p>
-                        <p class="home-description en">
-                            A designer who doesn't want to be a producter is not a good programmer, I love all the beautiful design, simple style lovers, digital products enthusiasts, enjoy the feeling of percussion keyboard, or text, or code ...
-                        </p>
-                        <div class="row en">
-                            <div class="col btn-group">
-                                <a href="about.html" class="btn btn-rabbit" target="_blank">About</a>
-                                <a href="https://iamlupeng.com" class="btn btn-rabbit" target="_blank">Blog</a>
-                                <a href="create.html" class="btn btn-rabbit" target="_blank">Create</a>
-                            </div>
-                        </div> 
-                        <div class="row zh">
-                            <div class="col btn-group">
-                                <a href="about.html" class="btn btn-rabbit" target="_blank">关于我</a>
-                                <a href="https://iamlupeng.com" class="btn btn-rabbit" target="_blank">博客</a> 
-                                <a href="create.html" class="btn btn-rabbit" target="_blank">创造</a>
-                            </div>
-                        </div> 
-                        <div class="social">
-                            <a href="javascript:;" id="weixin"><i class="fa fa-weixin" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/pengloo53" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://github.com/pengloo53" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/pengloo53" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="qrcode">
-                            <img src="assets/images/weixin.jpg" title="weixin" style="display: none;width: 60%">
-                            <img src="assets/images/weixin-self.png" title="weixin-self" style="display: none;width: 25%">
-                        </div>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <title>鲁鹏 · 个人首页</title>
+</head>
+<style>
+    body{
+        background-color: #f9f9f9;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .content{
+        background: #fff;
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        text-align: center;
+        border: 1px solid #eee;
+        padding: 80px 80px 50px 80px;
+    }
+    .title img{
+        width: 70px;
+        border-radius: 50%;
+
+    }
+    .title .name{
+        font-size: 1.25em;
+        margin-top: 10px;
+    }
+    .desc{
+        font-family: "Comic Sans MS";
+        margin-top: 1.5em;
+    }
+    .links{
+        margin-top: 1.5em;
+    }
+    .btn-link li{
+        /* margin: 5px 10px; */
+        margin-bottom: 10px;
+    }
+    .btn-link li a {
+        min-width: 110px;
+        font-size: 0.9em;
+        /* font-weight: 400; */
+    }
+    .icon-link li{
+        margin: 0 20px;
+    }
+    .icon-link li a{
+        font-size: 2em;
+        color: #000;
+    } 
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="content shadow-lg rounded">
+                <div class="title">
+                    <img src="assets/images/logo.jpg" alt="avatar">
+                    <p class="name"><strong>LU PENG</strong></p>
+                </div>
+                <div class="desc">
+                    <p>A Producter and A Father. <br/>
+                    I love all the beautiful design, simple style lovers, digital products enthusiasts, enjoy the feeling of percussion keyboard, or text, or code ...<br/>
+                    Designer who doesn't want to be a producter is not a good programmer.</p>
+                </div>
+                <div class="links func">
+                    <ul class="list-inline btn-link">
+                        <li class="list-inline-item"><a class="btn btn-outline-dark rounded-pill" title="关于我" href="./about.html">ABOUT</a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-dark rounded-pill" title="博客" href="https://iamlupeng.com" target="_blank">BLOG</a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-dark rounded-pill" title="合集" href="./collection.html">COLLECTION</a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-dark rounded-pill" title="创造" href="./project.html">PROJECT</a></li>
+                    </ul>
+                </div>
+                <div class="links social">
+                    <ul class="list-inline icon-link">
+                        <li class="list-inline-item" title="领英"><a href="https://linkedin.com/in/pengloo53" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li class="list-inline-item" title="GitHub"><a href="https://github.com/pengloo53" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li class="list-inline-item" title="推特"><a href="https://twitter.com/pengloo53" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item" title="Instagram"><a href="https://instagram.com/pengloo53" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item" title="微博"><a href="https://weibo.com/pengloo53" target="blank"><i class="fa fa-weibo"></i></a></li>
+                        <li class="list-inline-item" id="weixin" title="微信：P_lu0503"><a href=""><i class="fa fa-weixin"></i></a></li>
+                        <!-- <li class="list-inline-item" title="付费专栏"><a href="https://xiaozhuanlan.com/lupeng" target="_blank"><i class="fa fa-rmb"></i></a></li> -->
+                    </ul>
                 </div>
             </div>
-        </div><!-- index ends here -->
-        <script src="assets/js/jquery-3.1.0.min.js"></script>
-        <script>
-            $(function(){
-                $('#weixin').hover(function(){
-                    $('.qrcode img[title=weixin]').show('slideUp');
-                },function(){
-                    $('.qrcode img[title=weixin]').hide('slideDown');
-                });
-                $('#weixin-self').hover(function(){
-                    $('.qrcode img[title=weixin-self]').show('slideUp');
-                },function(){
-                    $('.qrcode img[title=weixin-self]').hide('slideDown');
-                });
-                $('a.local-zh').click(function(){
-                    $('a.local-zh').hide();
-                    $('a.local-en').show();
-                    $('.en').hide();
-                    $('.zh').show();
-                });
-                $('a.local-en').click(function(){
-                    $('a.local-en').hide();
-                    $('a.local-zh').show();
-                    $('.zh').hide();
-                    $('.en').show();
-                });
-            });
-        </script>
-    </body>
+        </div>
+
+    </div>
+</body>
 </html>
